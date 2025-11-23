@@ -339,7 +339,7 @@ def main():
         # Train/Test Split
         st.subheader("Model Configuration")
         
-            random_state = st.number_input("Random State", 0, 1000, 42, 1)
+        random_state = st.number_input("Random State", 0, 1000, 42, 1)
         
         from sklearn.model_selection import train_test_split
         X_train, X_test, y_train, y_test = train_test_split(
