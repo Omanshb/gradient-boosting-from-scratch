@@ -3,7 +3,7 @@ from collections import Counter
 
 
 class DecisionTreeRegressor:
-    """Decision Tree for Regression - used as base learner in Gradient Boosting"""
+    """Decision Tree for Regression based tasks - used as base learner in Gradient Boosting"""
     
     def __init__(self, max_depth=3, min_samples_split=2, min_samples_leaf=1):
         self.max_depth = max_depth
